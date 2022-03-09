@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstapp.signUpController">
+    <children>
+        <AnchorPane layoutY="93.0" prefHeight="308.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="login_field" layoutX="37.0" layoutY="92.0" prefHeight="40.0" prefWidth="266.0" promptText="Логин" />
+                <PasswordField fx:id="password_field" layoutX="350.0" layoutY="92.0" prefHeight="40.0" prefWidth="266.0" promptText="Пароль" />
+                <Button fx:id="signUpButton" layoutX="326.0" layoutY="263.0" mnemonicParsing="false" text="Войти" />
+            <TextField fx:id="signUpName" layoutX="37.0" layoutY="24.0" prefHeight="40.0" prefWidth="266.0" promptText="Имя" />
+            <TextField fx:id="signUpLastName" layoutX="350.0" layoutY="24.0" prefHeight="40.0" prefWidth="266.0" promptText="Фамилия" />
+            <TextField fx:id="signUpCountry" layoutX="217.0" layoutY="196.0" prefHeight="40.0" prefWidth="266.0" promptText="Страна" />
+            <CheckBox fx:id="signUpCheckBoxMale" layoutX="230.0" layoutY="146.0" mnemonicParsing="false" selected="true" text="Мужчина" />
+            <CheckBox fx:id="signUpCheckBoxFemale" layoutX="350.0" layoutY="146.0" mnemonicParsing="false" text="Женщина" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="280.0" layoutY="24.0" prefHeight="60.0" prefWidth="153.0" text="Регистрация" textFill="#fff9f9">
+            <font>
+                <Font name="Impact" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
